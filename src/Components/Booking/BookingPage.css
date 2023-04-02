@@ -1,0 +1,111 @@
+.booking {
+	display: flex;
+	flex-direction: column;
+	border: black;
+	align-items: center;
+	width: 100%;
+}
+
+.booking-form {
+	margin-top: 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	padding: 40px;
+	width: 60%;
+	border: 1px solid #000;
+	border-radius: 15px;
+}
+
+.booking-form label {
+	display: flex;
+	flex-direction: column;
+	margin: 10px 0;
+	font-size: 16px;
+}
+
+.booking-form label span {
+	margin-bottom: 5px;
+}
+
+.booking-form input[type="text"],
+.booking-form input[type="email"],
+.booking-form select,
+.booking-form input[type="datetime-local"] {
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	width: 100%;
+	font-size: 16px;
+}
+
+.booking-form button[type="submit"] {
+	background-color: #4caf50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+.booking-form button[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+.booking-form h4 {
+	margin-top: 0;
+}
+
+.booking-form p {
+	color: red;
+	margin-top: 10px;
+}
+
+.confirmation {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.confirmation-page {
+	display: flex;
+	border: black;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.confirmation-page h1 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+.confirmation-page h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.confirmation-page h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.confirmation-page h4 {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.confirmation-page div {
+	color: #4caf50;
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.confirmation-page div span {
+	font-size: 32px;
+	margin-right: 10px;
+}

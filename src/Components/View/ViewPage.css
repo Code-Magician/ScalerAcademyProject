@@ -1,0 +1,220 @@
+/* viewpage container */
+.viewpage {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: Arial, sans-serif;
+}
+
+/* viewpage heading */
+.viewpage-heading {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+/* heading style */
+.viewpage h1 {
+	font-size: 32px;
+	font-weight: bold;
+	color: #333;
+	margin: 0;
+}
+
+/* list container */
+.viewpage-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 60%;
+}
+
+/* list item */
+.viewpage li {
+	background-color: azure;
+	width: 100%;
+	margin-bottom: 30px;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/* item div */
+.viewpage__item-div {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+
+/* name and email */
+.viewpage__item-div > div:nth-child(1),
+.viewpage__item-div > div:nth-child(2) {
+	font-weight: bold;
+	font-size: 20px;
+	color: #333;
+}
+
+/* room number */
+.viewpage__item-div > div:nth-child(3) {
+	font-size: 30px;
+	color: rgb(255, 0, 0);
+}
+
+/* start and end dates */
+.viewpage__item-div > div:nth-child(4),
+.viewpage__item-div > div:nth-child(5) {
+	font-size: 25px;
+	color: #555;
+}
+
+/* edit button */
+.viewpage__item-button {
+	border: 1px solid #000000;
+	border-radius: 5px;
+	background-color: #1e90ff;
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	margin-top: 5px;
+}
+
+.edit {
+	display: flex;
+	flex-direction: column;
+	border: black;
+	align-items: center;
+	width: 100%;
+}
+
+.edit-form {
+	margin-top: 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	padding: 40px;
+	width: 60%;
+	border: 1px solid #000;
+	border-radius: 15px;
+}
+
+.edit-form label {
+	display: flex;
+	flex-direction: column;
+	margin: 10px 0;
+	font-size: 16px;
+}
+
+.edit-form label span {
+	margin-bottom: 5px;
+}
+
+.edit-form input[type="text"],
+.edit-form input[type="email"],
+.edit-form select,
+.edit-form input[type="datetime-local"] {
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	width: 100%;
+	font-size: 16px;
+}
+
+.edit-form button[type="submit"] {
+	background-color: #4caf50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+.edit-form button[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+.edit-form h4 {
+	margin-top: 0;
+}
+
+.edit-form p {
+	color: red;
+	margin-top: 10px;
+}
+
+.confirmation {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.confirmation-page {
+	display: flex;
+	border: black;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.confirmation-page h1 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+.confirmation-page h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.confirmation-page h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.confirmation-page h4 {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.confirmation-page div {
+	color: #4caf50;
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.confirmation-page div span {
+	font-size: 32px;
+	margin-right: 10px;
+}
+
+.confirmation__page-buttons {
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 2px;
+	background-color: #1e90ff;
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.filter label {
+	display: flex;
+	flex-direction: column;
+	margin: 10px 0;
+	font-size: 16px;
+}
